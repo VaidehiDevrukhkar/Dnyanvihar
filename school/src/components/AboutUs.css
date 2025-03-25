@@ -1,0 +1,75 @@
+.about-us {
+  padding: 32px;
+  background-color: #ffffe0; 
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+}
+
+.school-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #d97706; 
+  margin: 24px 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.section-content {
+  font-size: 18px;
+  color: #4B5563; 
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.about-us p {
+  background-color: #fffbeb; 
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #f59e0b; /* Accent color */
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+.section{
+  background-color: #f9f9f9;
+  border: 2px solid orange;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px orange;
+  height: 300px;
+  width: 500px;
+  gap:20px;
+  justify-content: center;
+  align-items: space-evenly;
+}
+.section:hover{
+  background-color: #F0F8FF;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, auto); 
+  gap: 20px; 
+  max-width: 1200px;
+  width: 100%;
+}

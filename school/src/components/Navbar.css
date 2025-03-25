@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Aligns items across the navbar */
+  background-color: #004080;
+  padding: 10px 20px;
+}
+
+.navbar-logo img {
+  height: 50px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar-links li a:hover {
+  color: #ffa500; /* Highlight color on hover */
+}
+
+/* Language Switcher Styles */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.language-switcher span {
+  color: white; /* Text color for the language label */
+  margin-right: 10px; /* Space between label and buttons */
+}
+
+.language-switcher button {
+  background-color: transparent; /* No background for buttons */
+  border: 1px solid white; /* White border for buttons */
+  color: white; /* Button text color */
+  margin-left: 5px; /* Space between buttons */
+  padding: 5px 10px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.language-switcher button:hover {
+  background-color: white; /* Background color on hover */
+  color: #ffa500; /* Text color on hover */
+}

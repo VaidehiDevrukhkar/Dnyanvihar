@@ -1,0 +1,106 @@
+/* General styles */
+.login-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+.login-left {
+  flex: 1; /* Takes up half the screen */
+  background-color: #58a798; /* Optional if image fails to load */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensures that the image doesn't overflow the container */
+}
+
+.login-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire container */
+}
+
+.login-right {
+  flex: 1; /* Takes up half the screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #fa7d3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #e76a2f;
+}
+
+p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+p a {
+  color: #fa7d3c;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #e8f5e9;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .login-left {
+    height: 50vh; /* Adjust image height for mobile */
+  }
+
+  .login-right {
+    padding: 20px;
+  }
+}

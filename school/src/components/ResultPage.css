@@ -1,0 +1,46 @@
+.result-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.result-header {
+    font-size: 2.5em; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.result-details {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.result-percentage {
+    margin: 20px 0; 
+    width: 150px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.percentage-text {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+.next-section-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s; 
+        margin-top: 20px; 
+}
+
+.next-section-button:hover {
+    background-color: #45a049; 
+}
+

@@ -1,0 +1,90 @@
+{
+  "navbar": {
+    "title": "Dashboard",
+    "language": "Select Language"
+  },
+  "labels": {
+    "name": "Name",
+    "quizMarks": "Quiz Marks",
+    "Quiz 1": "Technical and Analytical Skills",
+    "Quiz 2": "Arts and Humanities",
+    "Quiz 3": "Social and Leadership Skills"
+  },
+  "quote": "Education is the most powerful weapon which you can use to change the world.",
+  "vision": "Our Vision",
+  "visionDesc": "To foster an inclusive and dynamic learning environment where every student is inspired to excel academically, socially, and emotionally.",
+  "mission": "Our Mission",
+  "missionDesc": "Our mission is to provide quality education through innovative teaching methods, promoting lifelong learning and responsible citizenship.",
+  "faculty": "Meet Our Faculty",
+  "facultyTitle": "Faculty",
+  "aboutUs": {
+    "facilities": "Facilities",
+    "facilitiesContent": "Our school offers state-of-the-art facilities including modern classrooms, a well-equipped library, science labs, sports fields, and more.",
+    "achievements": "Achievements",
+    "achievementsContent": "We are proud of our students' achievements, including academic excellence, sports championships, and cultural accomplishments.",
+    "activities": "Activities",
+    "activitiesContent": "Our students engage in a variety of extracurricular activities, from arts and music to sports and community service.",
+    "information": "Information about the School",
+    "informationContent": "Located in a serene environment, our school provides a holistic education that prepares students for the future.",
+    "academics": {
+      "title": "Academics",
+      "description": "Our academic programs are designed to challenge and inspire students."
+    },
+    "activityDetails": {
+      "computerLab": {
+        "title": "Computer Lab",
+        "description": "Empowering minds through technology, celebrating innovation and creativity in our digital space!"
+      },
+      "library": {
+        "title": "Library",
+        "description": "Unleashing the power of knowledge, honoring freedom of thought and expression in our literary haven!"
+      },
+      "smartboard": {
+        "title": "Smartboard Distribution",
+        "description": "A smartboard is an interactive display that lets users engage with digital content directly, combining the features of a whiteboard with advanced technology."
+      }
+    },
+    "activitiesPage": {
+      "sportsDay": {
+        "title": "Sports Day",
+        "description": "A day full of exciting sports and games to encourage physical fitness and teamwork."
+      },
+      "independenceDay": {
+        "title": "Independence Day",
+        "description": "Celebrating the freedom and sovereignty of our nation with various cultural programs."
+      },
+      "rakshabandhan": {
+        "title": "Rakshabandhan",
+        "description": "Celebrating the bond of love and protection with Rakhi events and activities."
+      },
+      "ecoClub": {
+        "title": "Eco Club",
+        "description": "Promoting cleanliness and hygiene with a community-driven cleanliness drive."
+      },
+      "adivasiDivas": {
+        "title": "Adivasi Divas",
+        "description": "Adivasi Divas honors the rich cultural heritage and contributions of indigenous communities in India."
+      },
+      "culturalDay": {
+        "title": "Cultural Day",
+        "description": "A celebration of cultural diversity and student participation in various performances."
+      }
+    }
+  },
+  "admission": {
+    "admissionProcedure": "Admission Procedure",
+    "admissionSteps": [
+      "Visit the school office with the required documents.",
+      "Fill out the admission form provided by the school.",
+      "Submit the form and documents to the office.",
+      "Wait for the confirmation from the school administration."
+    ],
+    "eligibilityCriteria": "Eligibility Criteria",
+    "eligibilitySteps": [
+      "Students must be within the age range specified for each grade.",
+      "Required documents include birth certificate, previous school records, etc.",
+      "Parents/guardians must provide proof of residence.",
+      "Any other criteria set by the government or school administration."
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+.activities-page {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  padding: 20px;
+  margin: 0 auto; 
+  max-width: 1200px; 
+}
+
+.activity-item {
+  margin: 10px; 
+  text-align: center;
+  flex: 0 0 calc(33.33% - 20px); 
+  box-sizing: border-box; 
+}
+
+.activity-image {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px; 
+}
+
+.activity-title {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.activity-description {
+  font-size: 1em;
+  color: #555; 
+}
+
+@media (max-width: 768px) {
+  .activity-item {
+      flex: 0 0 calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .activity-item {
+      flex: 0 0 100%; 
+  }
+}
